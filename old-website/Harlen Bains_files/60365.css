@@ -1,0 +1,40 @@
+
+@font-face {
+    font-family: 'Apercu Mono Regular';
+    src: url('https://f.fontdeck.com/f/1/OXZNSTI4YkQABS9r9S05HnCUt9gwes1BCLu+cgnBYaVcWMuSZAy6/6rTJxBRb5cd6TrRrJEzlSKFJ3FTNPeq2AM5.eot');
+    src: url('https://f.fontdeck.com/f/1/OXZNSTI4YkQABS9r9S05HnCUt9gwes1BCLu+cgnBYaVcWMuSZAy6/6rTJxBRb5cd6TrRrJEzlSKFJ3FTNPeq2AM5.eot?') format('embedded-opentype'),
+    url('https://f.fontdeck.com/f/1/OXZNSTI4YkQABS9r9S05HnCUt9gwes1BCLu+cgnBYaVcWMuSZAy6/6rTJxBRb5cd6TrRrJEzlSKFJ3FTNPeq2AM5.woff') format('woff'),
+    url('https://f.fontdeck.com/f/1/OXZNSTI4YkQABS9r9S05HnCUt9gwes1BCLu+cgnBYaVcWMuSZAy6/6rTJxBRb5cd6TrRrJEzlSKFJ3FTNPeq2AM5.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apercu Light';
+    src: url('https://f.fontdeck.com/f/1/SlNvNTU2TDQABdU3hQRi+se3UvRJukmRq4fxImylTKnMoLc+YCefcNoEy2Zgmle+iOdCdwFy9qt29CGAWR7Kl+IM.eot');
+    src: url('https://f.fontdeck.com/f/1/SlNvNTU2TDQABdU3hQRi+se3UvRJukmRq4fxImylTKnMoLc+YCefcNoEy2Zgmle+iOdCdwFy9qt29CGAWR7Kl+IM.eot?') format('embedded-opentype'),
+    url('https://f.fontdeck.com/f/1/SlNvNTU2TDQABdU3hQRi+se3UvRJukmRq4fxImylTKnMoLc+YCefcNoEy2Zgmle+iOdCdwFy9qt29CGAWR7Kl+IM.woff') format('woff'),
+    url('https://f.fontdeck.com/f/1/SlNvNTU2TDQABdU3hQRi+se3UvRJukmRq4fxImylTKnMoLc+YCefcNoEy2Zgmle+iOdCdwFy9qt29CGAWR7Kl+IM.ttf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apercu Light';
+    src: url('https://f.fontdeck.com/f/1/SWIzcHB6RkQABc1iHxsFyMaTGLoOfwN0nQ1nDo2iccAQWG5Oe6PEouq0UHGlTGeFXckcL8kq/dEu8PSUQvXmSiu0.eot');
+    src: url('https://f.fontdeck.com/f/1/SWIzcHB6RkQABc1iHxsFyMaTGLoOfwN0nQ1nDo2iccAQWG5Oe6PEouq0UHGlTGeFXckcL8kq/dEu8PSUQvXmSiu0.eot?') format('embedded-opentype'),
+    url('https://f.fontdeck.com/f/1/SWIzcHB6RkQABc1iHxsFyMaTGLoOfwN0nQ1nDo2iccAQWG5Oe6PEouq0UHGlTGeFXckcL8kq/dEu8PSUQvXmSiu0.woff') format('woff'),
+    url('https://f.fontdeck.com/f/1/SWIzcHB6RkQABc1iHxsFyMaTGLoOfwN0nQ1nDo2iccAQWG5Oe6PEouq0UHGlTGeFXckcL8kq/dEu8PSUQvXmSiu0.ttf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apercu Bold';
+    src: url('https://f.fontdeck.com/f/1/c3VGS3lXbTUABXbMHjnht4Dh3etlJy3SG5rGpQHsij/n0OMsl6YQL/CcL3KOaZ5kPbPaqpCG6SHfW5hJZtWfYoxH.eot');
+    src: url('https://f.fontdeck.com/f/1/c3VGS3lXbTUABXbMHjnht4Dh3etlJy3SG5rGpQHsij/n0OMsl6YQL/CcL3KOaZ5kPbPaqpCG6SHfW5hJZtWfYoxH.eot?') format('embedded-opentype'),
+    url('https://f.fontdeck.com/f/1/c3VGS3lXbTUABXbMHjnht4Dh3etlJy3SG5rGpQHsij/n0OMsl6YQL/CcL3KOaZ5kPbPaqpCG6SHfW5hJZtWfYoxH.woff') format('woff'),
+    url('https://f.fontdeck.com/f/1/c3VGS3lXbTUABXbMHjnht4Dh3etlJy3SG5rGpQHsij/n0OMsl6YQL/CcL3KOaZ5kPbPaqpCG6SHfW5hJZtWfYoxH.ttf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}

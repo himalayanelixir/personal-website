@@ -5,7 +5,7 @@ base_url = "http://harlenbains.com"
 compile_sass = true
 
 # The site theme to use.
-theme = "sam"
+theme = "modified-sam"
 
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola

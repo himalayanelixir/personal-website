@@ -18,6 +18,5 @@ build_search_index = true
 # Put all your custom variables here
 sam_menu = [
     { text = "LinkedIn", link = "https://www.linkedin.com/in/harlenbains/" },
-    { text = "GitHub", link = "https://github.com/himalayanelixir" },
-    { text = "About", link = "/about" }
+    { text = "GitHub", link = "https://github.com/himalayanelixir" }
 ]

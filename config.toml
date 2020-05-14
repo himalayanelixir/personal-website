@@ -1,0 +1,14 @@
+baseURL = "http://harlenbains.com"
+languageCode = "en-us"
+title = "Harlen's Website"
+theme = "Sam"
+highlight_code = true
+build_search_index = true
+
+[[params.mainMenu]]
+    link = "http://linkedin.com/in/harlenbains"
+    text = "LinkedIn"
+
+[[params.mainMenu]]
+    link = "http://github.com/himalayanelixir"
+    text = "Github"

@@ -1,2 +1,3 @@
 # personal-website
-🌎 Website build using Hugo
+
+Personal website used to display my links.

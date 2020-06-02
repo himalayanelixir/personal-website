@@ -1,3 +1,4 @@
+https://realfavicongenerator.net
 Insert the following code in the <head> section of your pages:
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">

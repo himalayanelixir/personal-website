@@ -1,0 +1,107 @@
+---
+import Base from '../layouts/Base.astro';
+
+const links = [
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/harlenbains' },
+  { label: 'GitHub', href: 'https://github.com/himalayanelixir' },
+];
+---
+
+<Base>
+  <header>
+    <h1>Harlen Bains</h1>
+    <p class="role">Senior DevOps &amp; Full Stack Engineer</p>
+    <p class="location">San Francisco, California</p>
+  </header>
+
+  <section aria-labelledby="about">
+    <h2 id="about">About</h2>
+    <p>
+      I build and run software end to end, from product features to the
+      infrastructure, pipelines and tooling that ship them.
+    </p>
+  </section>
+
+  <section aria-labelledby="now">
+    <h2 id="now">Now</h2>
+    <p>
+      Right now I'm at <a href="https://www.bezi.com" rel="noopener" target="_blank">Bezi</a>,
+      helping build the world's best AI assistant for Unity game development.
+    </p>
+  </section>
+
+  <nav aria-label="Elsewhere">
+    <h2>Elsewhere</h2>
+    <p class="contact">The best way to reach me is a message on LinkedIn.</p>
+    <ul>
+      {
+        links.map(({ label, href }) => (
+          <li>
+            <a href={href} rel="me noopener" target="_blank">
+              {label} <span aria-hidden="true">↗</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+</Base>
+
+<style>
+  h1 {
+    margin: 0;
+    font-size: clamp(2rem, 6vw, 2.75rem);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    font-weight: 650;
+  }
+
+  .role {
+    margin: 0.75rem 0 0;
+    font-size: 1.125rem;
+  }
+
+  .location {
+    margin: 0.25rem 0 0;
+    color: var(--muted);
+  }
+
+  section,
+  nav {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+  }
+
+  h2 {
+    margin: 0 0 0.75rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  p {
+    margin: 0;
+  }
+
+  p.contact {
+    margin-bottom: 0.75rem;
+    color: var(--muted);
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.75rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li a span {
+    color: var(--muted);
+    font-size: 0.875em;
+  }
+</style>

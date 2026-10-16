@@ -60,3 +60,6 @@ jobs:
           aws-region: us-west-2
 
       - run: ./scripts/deploy.sh
+        env:
+          BUCKET: ${{ vars.S3_BUCKET }}
+          DISTRIBUTION_ID: ${{ vars.CLOUDFRONT_DISTRIBUTION_ID }}
